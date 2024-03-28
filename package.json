@@ -27,7 +27,7 @@
   "lint-staged": {
     "*.js": [
       "eslint",
-      "jest --findRelatedTests src/"
+      "jest --findRelatedTests src/ --passWithNoTests"
     ]
   }
 }
